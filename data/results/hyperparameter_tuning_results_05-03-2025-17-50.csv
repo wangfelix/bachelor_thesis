@@ -1,0 +1,3 @@
+Model,Feature Selection,ROC AUC Score,Selected Features,Best Params
+MLP,ANOVA,0.8786383928571428,"HRV_MeanNN, HRV_pNN50, HRV_LFHF, HRV_pNN20, HRV_maxNN, HRV_madNN, EDA_Tonic, SCR_Onsets, HRV_pNN50_norm, HRV_pNN20_norm, HRV_minNN_norm, EDA_Tonic_norm","{'classifier__alpha': 0.001, 'classifier__hidden_layer_sizes': (32, 16, 8), 'classifier__learning_rate_init': 0.01, 'feature_selection__k': 12}"
+MLP,SFS,0.8407929421768706,"HRV_MeanNN, HRV_pNN50, HRV_LFHF, HRV_pNN20, HRV_maxNN, HRV_madNN, EDA_Tonic, SCR_Onsets, HRV_pNN20_norm, EDA_Tonic_norm","{'feature_selection__n_features_to_select': 10, 'classifier__learning_rate_init': 0.001, 'classifier__hidden_layer_sizes': (64, 32, 16), 'classifier__alpha': 0.01}"
