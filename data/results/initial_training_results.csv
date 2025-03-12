@@ -1,3 +1,0 @@
-Model,CV_ROC_AUC,Test_ROC_AUC,Features
-MLP (ANOVA),0.8355416666666666,0.8368852459016393,"['HRV_pNN50(1)', 'HRV_pNN20(3)', 'EDA_Tonic(7)', 'HRV_pNN20_norm(10)', 'EDA_Tonic_norm(12)']"
-MLP (SFS),0.7717619047619048,0.8180327868852458,"['HRV_pNN20(3)', 'HRV_minNN(5)', 'EDA_Tonic(7)', 'SCR_Onsets(8)', 'HRV_minNN_norm(11)']"
