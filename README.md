@@ -22,7 +22,9 @@ The project is organized into the following main directories and files:
   - `04_hyperparameter_tuning.ipynb`: Hyperparameter tuning.
   - `05_model_evaluation.ipynb`: Model evaluation and SHAP analysis.
  
+## Branches
 
+The branch main includes the ML pipelines and evaluation used for primary analysis of the thesis. The `SMOTE-DATA-Augmentation-Initial-Analysis` branch includes the code for data augmentation. This additional analysis, referenced in the Discussion chapter of the thesis, compares three different SMOTE variants and explores the effects of data augmentation using SMOTE. The key contribution of this branch is the selection of the data augmentation algorithm that produced the augmented dataset with the smallest differences in feature correlations compared to the original dataset.
 
 ## Dependencies
 
